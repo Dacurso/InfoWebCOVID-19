@@ -1,0 +1,212 @@
+/*Todo lo que sea @import tiene que ir dentro del .css general del sitio, para no repetir lineas dentro de los .html.
+Lo mismo con todas las clases y selectores que se repitan a lo largo del sitio*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap'); 
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Serif', serif;
+}
+.menu{
+    display: none;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.oculto{
+    display: none;
+}
+
+.error{
+    color: crimson;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    background-color: rgba(248, 109, 186, 0.3);
+    color: black;
+    background-image: url(../img/background_enf.jpg);
+    background-size: cover;
+}
+.columna25 {
+    text-align: center;
+    width: 25%;
+}
+.columna33 {
+    text-align: center;
+    width: 33%;
+}
+
+.columna50 {
+    text-align: center;
+    width: 50%;
+}
+
+header {
+    width: auto;
+    height: 60px;
+    background-color: #A05C7B;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    
+}
+
+header div {
+    width: 50%;
+}
+
+.buscador {
+    position: relative;
+}
+
+#logo {
+    width: 120px;
+    margin: 0px;
+    margin-top: 7px;
+}
+
+
+#lupa {
+    margin-top: 13px;
+    position: absolute;
+    height: 27px;
+    background-color: #DAD4D4;
+}
+
+header input {
+    width: 60%;
+    height: 45%;
+    margin-top: 13px;
+    border: none;
+    background-color: #EDE8E8;
+}
+.desplegable{
+    display: block;
+    width: 10%;
+    border-radius: 10px;
+    height: 5%;
+    background-color: #ff2b9c;
+    background-image: url(../img/hamburger.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 19px;
+    right: 0;
+    margin-right: 5px;
+}
+
+footer {
+    color: #000000;
+    background-color: #A05C7B;
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+}
+footer h4{
+    padding-bottom: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 15px;
+    font-style: italic;
+}
+
+.redes i {
+    width: 30px;
+    font-size: 30px;
+    transition: 1s;
+}
+.redes i:hover{
+    opacity: 0.6;
+}
+@media screen and (min-width:47em){
+    #logo {
+        width: 150px;
+        margin: 0px 0px 0px 20px;
+    }
+    
+    
+    #lupa {
+        margin-top: 10px;
+        height: 34px;
+    }
+    
+    header input {
+        width: 85%;
+        height: 57%;
+        margin-top: 10px;
+    }
+    
+    .menu {
+        display: block;
+        background-color: #B399A2;
+        width: 100%;
+    }
+    
+    .menu ul {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    
+    .menu li {
+        list-style: none;
+    }
+    
+    .menu a {
+        color: black;
+        display: block;
+        text-decoration: none;
+        padding: 10px;
+        transition: 0.4s;
+    }
+    
+    .menu a:hover {
+        color: #CD9FCC;
+        background-color: black;
+        text-decoration: none;
+    }
+    .desplegable{
+        display: none;
+    }
+    footer {
+        padding-top: 30px;
+        display: flex;
+    }
+    
+    footer h4{
+       padding-top: 0px;
+    }
+    
+    .datos{
+        margin-left: 0px;
+        margin-left: 30px;
+    }
+    
+    .menuinf {
+        margin-right: 20px;
+    }
+    
+    .redes {
+        margin-right: 30px;
+    }
+    
+    .redes i {
+        width: 30px;
+        font-size: 30px;
+        transition: 1s;
+    }
+    .redes i:hover{
+        opacity: 0.6;
+    }
+}

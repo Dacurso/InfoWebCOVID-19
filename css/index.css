@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+#slaider {
+    width: 100%;
+    margin-top: 30px;
+    opacity: 0.9;
+    margin-bottom: 10px;
+}
+h1 {
+    text-align: center;
+    margin-top: 15px;
+    text-decoration: underline;
+    font-family: 'Lora', serif;
+}
+
+section h4 {
+    margin-top: 25px;
+}
+.info {
+    margin-top: 80px;
+    display: grid;
+    grid-template-areas: "arriba arr"
+    "abajo abajo";
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+.enf{
+    grid-area: arriba;
+    width: 200px;
+}
+.enf h4{
+    position: absolute;
+    left: 25px;
+}
+.vac{
+    grid-area: arr;
+    width: 200px;
+}
+.vac h4{
+    position: absolute;
+    left: 250px;
+}
+.hos{
+    grid-area: abajo;
+    width: 200px;
+    padding-left: 100px;
+    padding-top: 80px;
+}
+.hos h4{
+    position: absolute;
+    left: 110px;
+    
+}
+.info img {
+    width: 50%;
+    border-radius: 60%;
+    display: block;
+    margin: auto;
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+.info img:hover {
+    opacity: 1;
+}
+
+.contacto {
+    height: 130px;
+    margin-top: 80px;
+    background-color: #B399A2;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    position: relative;
+}
+
+.contacto img {
+    width: 50px;
+    position: absolute;
+    right: 150px;
+    top: 35px;
+}
+
+#text1 {
+    font-size: 18px;
+    padding-top: 10px;
+
+}
+
+#text2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 3px;
+    margin-top: 15px;
+}
+
+#text3 {
+    font-size: 90px;
+    position: absolute;
+    right: 2px;
+    bottom: 15px;
+
+}
+@media screen and (min-width:47em){
+
+    .info {
+        display: flex;
+    }  
+    .enf{
+        grid-area: auto;
+    }
+    .enf h4{
+        left: 75px;
+    }
+    .vac{
+        grid-area: auto;
+    }
+    .vac h4{
+        left: 350px; 
+    }
+    .hos{
+        grid-area: auto;
+        padding-left: 0;
+        padding-top: 0;
+    }
+    .hos h4{
+        
+        left: 560px;
+    }
+    section h4 {
+        margin-top: 25px;
+        left: 0px;
+    }
+    .contacto {
+        height: 200px;
+    }
+    
+    .contacto img {
+        width: 120px;
+        right: 300px;
+        top: 40px;
+    }
+    
+    #text1 {
+        font-size: 30px;
+        padding-top: 0px;
+        padding: 25px;
+        padding-left: 0px;
+    }
+    
+    #text2 {
+        position: absolute;
+        font-size: 50px;
+        font-weight: bold;
+        left: 50px;
+        top: 100px;
+    }
+    
+    #text3 {
+        font-size: 140px;
+        position: absolute;
+        right: 50px;
+        bottom: 15px;
+    }
+    @media screen and (min-width:60em){
+         .contacto img {
+            right: 500px;
+            top: 40px;
+        }
+        
+        #text1 {
+            font-size: 25px;
+            padding: 35px;
+            margin-left: 50px;
+        
+        }
+        
+        #text2 {
+            left: 190px;
+            top: 50px;
+        }
+        
+        #text3 {
+            font-size: 140px;
+            position: absolute;
+            right: 250px;
+        
+        }
+    }
+}

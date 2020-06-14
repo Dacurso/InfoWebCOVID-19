@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Enfermedades</title>
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/enfermedades.css">
+    <link rel="icon" href="img/corazon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1">
+    <script src="https://kit.fontawesome.com/5b6d4d7322.js" crossorigin="anonymous"></script>
+    <!--linkea los logos para poder utilizar  -->
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="img/logosalud.png" alt="logo" id="logo"></a>
+        </div>
+        <div class="buscador">
+            <input type="text" id="buscador">
+            <img src="img/lupa.png" alt="lupa" id="lupa">
+        </div>
+    </header>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html" target="_blank">Home</a></li>
+            <li><a href="enfermedades.html" target="_blank">Enfermedades</a></li>
+            <li><a href="#" target="_blank">Vacunaci&oacute;n</a></li>
+            <li><a href="hospitales.html" target="_blank">Hospitales</a></li>
+            <li><a href="contacto.html" target="_blank">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h1>
+                Enfermedades
+            </h1>
+            <div class="buscIMG">
+                <input list="enf" type="text" name="lista" class="fas fa-search"
+                    placeholder="&#xf002; Buscar enfermedad">
+                <datalist id="enf">
+                    <option value="Coronavirus">
+                    <option value="Gripe">
+                    <option value="Dengue">
+                    <option value="mononucleosis">
+                    <option value="Hantavirus">
+                </datalist>
+            </div>
+        </section>
+        <section class="corona">
+            <div>
+                <a href="detalleenf.html" target="_blanck"><img src="img/Coronavirus.jpg" alt="Coronavirus"></a>
+                <article>
+                    <h2>COVID-19</h2>
+                    <p> El COVID‑19 es la enfermedad infecciosa causada por el coronavirus que se ha descubierto más
+                        recientemente. Tanto este nuevo virus como la enfermedad que provoca eran desconocidos antes de
+                        que estallara el brote en Wuhan (China) en diciembre de 2019. Actualmente la COVID‑19 es una
+                        pandemia que afecta a muchos países de todo el mundo.
+                        <br>
+                        <button><a href="detalleenf.html" target="_blanck" id="detalle">Ver detalle</a></button></p>
+                </article>
+            </div>
+
+            <div>
+                <a href="detalleenf.html" target="_blanck"><img src="img/gripe.jpg" alt="Coronavirus"></a>
+                <article>
+                    <h2>GRIPE A (H1N1)</h2>
+                    <p> La gripe A es una infección respiratoria aguda y muy contagiosa de los cerdos,
+                        causada por alguno de los varios virus gripales de tipo A de esa especie. La morbilidad suele
+                        ser alta, y la mortalidad baja. El virus se transmite entre los cerdos a través de
+                        aerosoles, por contacto directo o indirecto, y a través de cerdos portadores asintomáticos.
+                        <br>
+                        <button><a href="detalleenf.html" target="_blanck" id="detalle">Ver detalle</a></button></p>
+                </article>
+            </div>
+
+            <div>
+                <a href="detalleenf.html" target="_blanck"><img src="img/dengue.jpg" alt="Coronavirus"></a>
+                <article>
+                    <h2>DENGUE</h2>
+                    <p> El dengue es una enfermedad infecciosa del tipo viral, que es transmitida por mosquitos Aedes
+                        aegypti hembras.Existen 4 tipos del virus de dengue. La infección causa síntomas gripales, y en
+                        ocasiones evoluciona hasta convertirse en un cuadro potencialmente mortal, llamado dengue grave
+                        o dengue hemorrágico.
+                        <br>
+                        <button><a href="detalleenf.html" target="_blanck" id="detalle">Ver detalle</a></button></p>
+                </article>
+            </div>
+
+            <div>
+                <a href="detalleenf.html" target="_blanck"><img src="img/mononucleosis.jpg" alt="Coronavirus"></a>
+                <article>
+                    <h2>MONONUCLEOSIS</h2>
+                    <p> La mononucleosis infecciosa es una enfermedad provocada por el virus Epstein-Barr de la familia
+                        de los
+                        herpes. También conocida como la enfermedad del beso, causa fiebre, dolor de garganta e
+                        inflamación de los ganglios linfáticos, signo que suele producirse en el cuello.
+                        <br>
+                        <button><a href="detalleenf.html" id="detalle" target="_blanck">Ver detalle</a></button></p>
+                </article>
+            </div>
+
+            <div>
+                <a href="detalleenf.html" target="_blanck"><img src="img/hantavirus.jpg" alt="Coronavirus"></a>
+
+                <article>
+                    <h2>HANTAVIRUS</h2>
+                    <p> El hantavirus es una enfermedad viral aguda grave, causada por el virus Hanta. Los ratones
+                        silvestres (principalmente los colilargos) son los reservorios de este virus y lo transmiten a
+                        las personas, eliminando el virus en la saliva, las heces y la orina. Originalmente es muy
+                        similar al de las fiebres hemorrágicas, que son las que producen alteraciones de la coagulación
+                        (como el dengue).
+                        <br>
+                        <button><a href="detalleenf.html" id="detalle" target="_blanck">Ver detalle</a></button></p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="datos">
+
+            <h4>Datos del grupo:</h4>
+            <p>Maldonado Arce Agustina Bel&eacute;n 42.861.758</p>
+            <p>Dacurso Emiliano Daniel 40.012.254</p>
+
+        </div>
+        <div class="menuinf">
+
+            <h4> Men&uacute; inferior: </h4>
+            <a href="enfermedades.html" target="_blank" id="texto" target="_blank">Enfermedades</a>
+            <br>
+            <a href="#" target="_blank" id="texto" target="_blank">Vacunaci&oacute;n</a>
+            <br>
+            <a href="hospitales.html" target="_blank" id="texto" target="_blank">Hospitales</a>
+            <br>
+            <a href="contacto.html" target="_blank" id="texto" target="_blank">Contacto</a>
+
+        </div>
+
+        <div class="redes">
+
+            <h4> Redes Sociales:</h4>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram-square"></i></a>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

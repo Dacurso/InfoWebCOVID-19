@@ -1,0 +1,13 @@
+main{
+    text-align: center;
+}
+h1{
+    font-size: 3em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    
+}
+iframe{
+    width: calc(100% - 10em);
+    margin-bottom: 3em;
+}
